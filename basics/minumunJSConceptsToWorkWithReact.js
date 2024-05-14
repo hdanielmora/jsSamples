@@ -121,7 +121,12 @@ console.log(listOfCustomers);
 console.log(newlistOfCustomers);
 
 //listOfCustomers.filter
+let listOfCustomersFiltered = listOfCustomers.filter((valueArray) => {
+  return valueArray !== "Andrea";
+});
 
+console.log("listOfCustomersFiltered");
+console.log(listOfCustomersFiltered);
 
 //listOfCustomers.reduce all elements to ONE value.
 
@@ -131,4 +136,6 @@ const salesSum = listOfSales.reduce((previousOrAcumulator, currentSale) => {
 });
 console.log(salesSum);
 
+
+// Async + Await + Fetch
 
