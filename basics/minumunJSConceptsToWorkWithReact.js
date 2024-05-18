@@ -137,5 +137,3 @@ const salesSum = listOfSales.reduce((previousOrAcumulator, currentSale) => {
 console.log(salesSum);
 
 
-// Async + Await + Fetch
-
